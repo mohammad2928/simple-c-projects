@@ -1,0 +1,6 @@
+Consider a main that takes a sequence of strings (words) as arguments from the command line. Ignore argv [0] 
+and consider the last word: argv[argc-1]. We want to count how many times this word appears as a sub-string in 
+the previous ones, ignoring the difference between upper and lower case letters. For this purpose, you are 
+required to implement a function with the following prototype: 
+int count(char *words[], int nwords, char *wordToSearch);
+Show also how this function can be called by the main.
