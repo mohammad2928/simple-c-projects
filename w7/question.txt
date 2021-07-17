@@ -1,0 +1,7 @@
+Given a matrix of characters A of size n × m and a string s, write a C function that counts how many times the 
+string is contained in the rows and columns of the matrix and returns the result in the form of an integer value. The 
+string should be considered either horizontally from left to right or vertically from top to bottom. The prototype of 
+the function should be:
+int count(char A[][MAXM], int n, int m, char str[]);
+Example: the string “cat” is contained 3 times in the following 4x5 matrix (see second column, fourth column 
+and fourth row):
