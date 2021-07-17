@@ -1,0 +1,8 @@
+Given a square matrix N x N, with N odd (N <= MAXN, with MAXN constant), write a function with the following 
+prototype:
+nt sumFrames(int mat[MAXN][MAXN], int N, int vet[]);i
+The function stores in the vector vet, which is assumed to be of sufficient size to contain the result, the sum of 
+the elements of each concentric frame of the matrix. The function should return the number of frames as an integer 
+value.
+As an example, the following 5x5 matrix is characterized by the presence of 3 frames (white, light gray, dark gray), 
+one of which (the dark grey one) consists of the only central element of the matrix.

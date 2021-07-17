@@ -1,0 +1,14 @@
+In a championship n (max 20) teams play for m (max 20) days. The outcome of the matches are stored
+in a matrix of n × m integers, each of which can only be either 0, 1 or 3. Each i-th row of the matrix 
+represents the points acquired by the i-th team in the m days of the championship. Each j-th column 
+of the matrix represents the points acquired by the n teams in the matches of the j-th day. The points 
+acquired are 3 for a won game, 1 for tied and 0 for a defeat, respectively. 
+Write a C function with the following prototype:
+void displRanking(int C[MAXN][MAXM], int n, int m);
+For each matchday of the championship, the function should print on the screen the index (i.e., the corresponding row number) of the team that is currently leading the championship (i.e., the team that has 
+the highest sum of points since the beginning of the championship). In case there is more than one leading 
+team, it should print the first that is found.
+Example:
+Given the following matrix with n=4 and m=3 
+The outout should be:
+The leading team in each of the 3 matchdays is: 0 0 3
