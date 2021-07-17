@@ -1,0 +1,6 @@
+Given a string S of characters, write a C function countAndPrint that prints on the screen all the substrings of 
+n characters that contain 2 vowels (remember that in C there is no library function that determines whether a 
+character is a consonant or a vowel, it must be implemented from scratch). The prototype should be the following:
+void countAndPrint(char str[], int n);
+Example: if S=”forExample” e n= 4, the substrings that are 4-characters long and contain 2 vowels are: “forE”, 
+“orEx”, “rExa” and “Exam”.

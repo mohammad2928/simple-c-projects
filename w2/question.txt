@@ -1,0 +1,8 @@
+Write the function int charErase (char str[], int pos[]); that receives a string str and a 
+vector of integers without repeated values pos and modifies the string str by deleting all the characters that are 
+in the positions indicated by pos. The cancellation and compaction must be done directly on str. The vector 
+pos has an unknown size, but it contains the value -1 as the last element. The function returns, as an integer, the 
+number of deleted characters  
+For example, if the string str is ThisIsAString and  pos contains  7,4,2,0,11,-1 the function should 
+delete from str the characters S,I,i,T,n and return the value 5, modifying the string as follows:  
+hssAtrig 

@@ -1,0 +1,7 @@
+Given a vector V of N integers. Write a C function that displays on the screen all the sub-vectors of maximum size 
+that are made up of only contiguous cells with odd values. The function should have the following prototype: 
+ 
+void maxOdd(int v[], int N); 
+ 
+Example: given the array 1,3,7,1,0,1,9,3,1,0 the sub-vectors of maximum size with only contiguous odd numbers 
+are: 1,9,3,1 and 1,3,7,1
