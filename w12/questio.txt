@@ -1,0 +1,12 @@
+Consider a square region in the first quadrant of the Cartesian plane whose bottom left and upper right 
+corners have coordinates (0,0) and (100,100), respectively. A text file contains a sequence of rectangles, 
+one per line, with sides parallel to the Cartesian axes. Each rectangle is identified by the x and y 
+coordinates of the bottom left and upper right corners, reported with spaces as separators. The coordinates 
+are integers between 0 and 100, with extremes included. Write the function int areaTot (FILE * 
+fp); which receives as a parameter a pointer to the file (already open) and returns the total area covered 
+by the rectangles. In case of intersection of rectangles, the area of the intersecting region should be
+counted only once.
+Example (for the sake of simplicity, we report a smaller region with x and y coordinates in the interval 
+0..10)
+If you assume that the file of the example contains 1 2 4 4 on the first line (see black rectangle) and 3 3 
+5 8 in the second line (see grey rectangle), the total area returned by the function should be 15.
