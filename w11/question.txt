@@ -1,0 +1,15 @@
+Assume that you have been given a vector v of N integers whose elements represent, in a compressed format, a sequence of numbers that must be inserted in a matrix M of integers of r rows and c columns, 
+according to the row-major strategy (i.e. by rows). The vector contains the sequences of values 
+corresponding to the rows of the matrix, with an encoding that tries to compact the repeated data.
+To decode the sequence, the integers of the vector must be considered in pairs (v [0], v [1]), (v [2], v [3]), 
+(v [4], v [5]), etc. Given v [i] and v [i + 1], v [i] represents the integer value and v [i + 1] the number of
+repetitions (i.e. how many times v [i] must repeat on the same row of matrix M, or on the next row if the 
+current row ends).
+Implement a C function to decode the vector, store the decoded (i.e. uncompressed) sequences in the 
+matrix and print its content on the screen. The function should have the following prototype: 
+int buildMatrix(int V[], int N, int M[MAXR][MAXC], int nr, int nc);
+The function should check that the array V is valid (i.e., that its size is compatible with the size of the 
+already existing matrix M,so that all the nr x nc cells are filled: the function should return 1 if the size of 
+the array is valid, 0 otherwise. 
+Example. Assume nr = 3, nc = 5, N = 14 and V = (1, 2, 17, 2, 3, 1, 8, 4, 6, 1, 7, 3, 5, 2): the matrix M
+should have the following content:
